@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./pexels-mixu-1323206.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(.5px);
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: left;
+
+}
+
+form {
+    width: 25%;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    color: white;
+}
+#emailHelp{
+    color: white;
+}
